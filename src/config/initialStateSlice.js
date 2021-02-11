@@ -11,9 +11,9 @@ export const initialState = {
   },
   basemap: VOYAGER,
   credentials: {
-    username: 'TYPE HERE YOUR CARTO USERNAME',
+    username: 'planninglabs',
     apiKey: 'default_public',
-    serverUrlTemplate: 'https://{user}.carto.com',
+    serverUrlTemplate: 'https://nycplanning-web.carto.com',
   },
   googleApiKey: '', // only required when using a Google Basemap
 };
